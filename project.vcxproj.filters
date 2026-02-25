@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{3c94b836-2614-42b7-bdd2-0c1791f481b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{9412dab9-65b7-4b07-8591-dec85b755955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\teapot">
+      <UniqueIdentifier>{658acb82-aa7a-4c9c-b1e1-e85fa058a9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\castle">
+      <UniqueIdentifier>{7737c74b-8358-4556-bcb5-4287ecb1d256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\ground">
+      <UniqueIdentifier>{97d37cac-c803-4903-a085-eb20834d7982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\skybox">
+      <UniqueIdentifier>{80ce8f52-938b-40e0-8c72-c1b3ac05fdaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\moon">
+      <UniqueIdentifier>{75ea4d77-c34f-497e-8125-5ff9b917b0c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\tree">
+      <UniqueIdentifier>{89903c9b-c0aa-4401-9c94-70b19d8e5558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\rain">
+      <UniqueIdentifier>{38f27f4d-c48d-4ab1-bc26-a6776fde1940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\lamp">
+      <UniqueIdentifier>{f0f8402c-242a-4575-b06f-e294107e04ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\light">
+      <UniqueIdentifier>{f04d6b48-7de1-487e-8950-cbf018eac299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models\wolf">
+      <UniqueIdentifier>{359c7b1a-ead7-46ca-8604-e9022cd6bc53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny_obj_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model3D.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="models\teapot\bricks2.jpg">
+      <Filter>models\teapot</Filter>
+    </Image>
+    <Image Include="models\teapot\bricks2_spec.jpg">
+      <Filter>models\teapot</Filter>
+    </Image>
+    <Image Include="models\ground\ground.jpg">
+      <Filter>models\ground</Filter>
+    </Image>
+    <Image Include="models\castle\Castle_Exterior.jpg">
+      <Filter>models\castle</Filter>
+    </Image>
+    <Image Include="models\castle\Ground_Fountain.jpg">
+      <Filter>models\castle</Filter>
+    </Image>
+    <Image Include="models\castle\Towers.jpg">
+      <Filter>models\castle</Filter>
+    </Image>
+    <Image Include="models\castle\Castle_Interior.jpg">
+      <Filter>models\castle</Filter>
+    </Image>
+    <Image Include="models\skybox\back.png">
+      <Filter>models\skybox</Filter>
+    </Image>
+    <Image Include="models\skybox\bottom.png">
+      <Filter>models\skybox</Filter>
+    </Image>
+    <Image Include="models\skybox\front.png">
+      <Filter>models\skybox</Filter>
+    </Image>
+    <Image Include="models\skybox\left.png">
+      <Filter>models\skybox</Filter>
+    </Image>
+    <Image Include="models\skybox\right.png">
+      <Filter>models\skybox</Filter>
+    </Image>
+    <Image Include="models\skybox\top.png">
+      <Filter>models\skybox</Filter>
+    </Image>
+    <Image Include="models\moon\Bump_2K.png">
+      <Filter>models\moon</Filter>
+    </Image>
+    <Image Include="models\moon\Diffuse_2K.png">
+      <Filter>models\moon</Filter>
+    </Image>
+    <Image Include="models\tree\brown.png">
+      <Filter>models\tree</Filter>
+    </Image>
+    <Image Include="models\rain\rain.png">
+      <Filter>models\rain</Filter>
+    </Image>
+    <Image Include="models\lamp\lamp.PNG">
+      <Filter>models\lamp</Filter>
+    </Image>
+    <Image Include="models\light\brck49L.jpg">
+      <Filter>models\light</Filter>
+    </Image>
+    <Image Include="models\light\brck49Lb.jpg">
+      <Filter>models\light</Filter>
+    </Image>
+    <Image Include="models\light\CNCR04L.JPG">
+      <Filter>models\light</Filter>
+    </Image>
+    <Image Include="models\light\CNCR04LB.JPG">
+      <Filter>models\light</Filter>
+    </Image>
+    <Image Include="models\light\germany010.jpg">
+      <Filter>models\light</Filter>
+    </Image>
+    <Image Include="models\light\germany010b.jpg">
+      <Filter>models\light</Filter>
+    </Image>
+    <Image Include="models\light\Marmite.jpg">
+      <Filter>models\light</Filter>
+    </Image>
+    <Image Include="models\light\Marmitebump.jpg">
+      <Filter>models\light</Filter>
+    </Image>
+    <Image Include="models\light\Marmitees.jpg">
+      <Filter>models\light</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="models\teapot\teapot20segUT.mtl">
+      <Filter>models\teapot</Filter>
+    </None>
+    <None Include="shaders\basic.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="models\teapot\teapot20segUT.obj">
+      <Filter>models\teapot</Filter>
+    </None>
+    <None Include="shaders\basic.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="models\ground\ground.mtl">
+      <Filter>models\ground</Filter>
+    </None>
+    <None Include="models\ground\ground.obj">
+      <Filter>models\ground</Filter>
+    </None>
+    <None Include="models\castle\Castle.mtl">
+      <Filter>models\castle</Filter>
+    </None>
+    <None Include="models\castle\Castle.obj">
+      <Filter>models\castle</Filter>
+    </None>
+    <None Include="shaders\skyboxShader.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\skyboxShader.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="models\moon\Moon_2K.mtl">
+      <Filter>models\moon</Filter>
+    </None>
+    <None Include="models\moon\Moon_2K.obj">
+      <Filter>models\moon</Filter>
+    </None>
+    <None Include="models\tree\tree.mtl">
+      <Filter>models\tree</Filter>
+    </None>
+    <None Include="models\tree\tree.obj">
+      <Filter>models\tree</Filter>
+    </None>
+    <None Include="models\lamp\lamp.mtl">
+      <Filter>models\lamp</Filter>
+    </None>
+    <None Include="models\lamp\lamp.obj">
+      <Filter>models\lamp</Filter>
+    </None>
+    <None Include="models\light\light.mtl">
+      <Filter>models\light</Filter>
+    </None>
+    <None Include="models\light\light.obj">
+      <Filter>models\light</Filter>
+    </None>
+    <None Include="models\wolf\wolf.mtl">
+      <Filter>models\wolf</Filter>
+    </None>
+    <None Include="models\wolf\wolf.obj">
+      <Filter>models\wolf</Filter>
+    </None>
+  </ItemGroup>
+</Project>
