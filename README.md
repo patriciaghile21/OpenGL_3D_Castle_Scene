@@ -19,10 +19,10 @@ An exploration of photorealism concepts in interactive 3D environments using Ope
 * **IDE:** Visual Studio
 
 ## Project Structure
-* `src/` - C++ source files and headers (Camera, Mesh, Model3D, Shader, SkyBox)
-* `shaders/` - Vertex and Fragment shaders for lighting, fog, and shadows
-* `models/` - 3D assets in .obj and .mtl format
-* `docs/` - Technical documentation and architectural overview (PDF)
+* **Root Directory:** Contains Visual Studio solution files (`.sln`, `.vcxproj`) and all C++ source and header files (`Camera`, `main`, `Mesh`, `Model3D`, `Shader`, `SkyBox`).
+* `models/` - 3D assets in .obj and .mtl format.
+* `shaders/` - Vertex and Fragment shaders for lighting, fog, and shadows.
+* `docs/` - Technical documentation and architectural overview (PDF).
 
 ## How to Run
 1. Open the `project.sln` file in Visual Studio.
